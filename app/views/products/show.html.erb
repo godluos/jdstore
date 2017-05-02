@@ -1,0 +1,12 @@
+
+  <div class="col-sm-6">
+
+    <%= image_tag(@product.image.medium.url) %>
+
+  </div>
+  <div class="col-sm-6">
+    <%= @product.title %><br>
+    <%= simple_format(@product.description) %><br>
+    <%= @product.quantity %><br>
+    <%= @product.price %>
+</div>

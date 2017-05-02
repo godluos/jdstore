@@ -2,7 +2,8 @@
 
 <p>
   <%= simple_format(@product.description) %>
-  
-
+    <%= @product.quantity %><br>
+    <%= @product.price %><br>
+   <%= image_tag(@product.image.thumb.url) %>
 
 </p>
